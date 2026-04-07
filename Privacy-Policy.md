@@ -55,19 +55,8 @@ The app processes data you enter or import, for example:
 - Savings goals and progress
 - Bills and recurring entries
 - Loans and loan payments
-- Business or org workspace settings, where you use those features
 
-### 2.3 Team and organization (business mode)
-
-If you use organization or team features, we may process:
-
-- Membership, roles (owner, co-owner, member), and seat limits
-- Invite-related information, including invitee email addresses
-- Shared workspace data visible to members by role (for example accounts, transactions, goals, loans, budgets, bills, recurring items, categories), as enforced on the backend
-
-Feature limits may depend on subscription tier; see subscriptions below.
-
-### 2.4 Device, connectivity, and local storage
+### 2.3 Device, connectivity, and local storage
 
 We may process:
 
@@ -78,7 +67,7 @@ We may process:
 
 Third-party SDKs (such as advertising or store libraries) may collect their own diagnostic or advertising data under their policies.
 
-### 2.5 AI coaching (Google Gemini)
+### 2.4 AI coaching (Google Gemini)
 
 If this feature is enabled in your build, the app may send a **small numeric summary** (aggregates and codes **without** raw memos, account names, or personal identifiers in that payload) to **Google** (Gemini API) to generate short coaching text.
 
@@ -92,7 +81,7 @@ Links:
 
 If the feature is off or no API key is configured, we do not send coaching requests.
 
-### 2.6 Exchange rates (Open Exchange Rates)
+### 2.5 Exchange rates (Open Exchange Rates)
 
 Currency conversion may call **Open Exchange Rates** (or a compatible API). Typical data involved:
 
@@ -103,28 +92,28 @@ More information: [openexchangerates.org](https://openexchangerates.org/) (see t
 
 Without API credentials, the app may use cache-only or other fallback behavior as implemented.
 
-### 2.7 Ads (Google Mobile Ads / AdMob)
+### 2.6 Ads (Google Mobile Ads / AdMob)
 
 If ads are shown, Google may process identifiers, approximate location, and ad interaction signals.
 
 - [Google Privacy Policy](https://policies.google.com/privacy)
 - [How Google uses data from partners](https://policies.google.com/technologies/partner-sites)
 
-### 2.8 Subscriptions (RevenueCat; stores handle payment)
+### 2.7 Subscriptions (RevenueCat; stores handle payment)
 
-For paid plans (for example **Business Pro**), **RevenueCat** may process an app user id, subscription and entitlement status, product metadata, and store receipts.
+For paid plans or other in-app purchases, **RevenueCat** may process an app user id, subscription and entitlement status, product metadata, and store receipts.
 
 **Payments** are processed by **Google Play** or **Apple's App Store**, not by RevenueCat.
 
 - [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
 
-### 2.9 Backend (Supabase)
+### 2.8 Backend (Supabase)
 
-**Supabase** provides authentication, database, and related backend services for account records and your stored financial and workspace data, subject to our access rules.
+**Supabase** provides authentication, database, and related backend services for account records and your stored financial data, subject to our access rules.
 
 - [Supabase Privacy Policy](https://supabase.com/privacy)
 
-### 2.10 Share and export
+### 2.9 Share and export
 
 When you share or export content, you pick the destination app or channel. We do not control what happens after you send it.
 
@@ -134,7 +123,6 @@ We use information to:
 
 - Run, secure, and improve the app
 - Authenticate accounts and sync cloud data
-- Support org and team features you use
 - Provide optional AI coaching when configured
 - Load exchange rates
 - Manage subscriptions and feature gates
