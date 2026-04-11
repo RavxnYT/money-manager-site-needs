@@ -172,7 +172,7 @@ You can often limit ad personalization or reset the advertising ID in your **And
 
 <h2 id="children">9. Children</h2>
 
-The app is **not aimed at children under 3**. We do not knowingly collect personal information from children under 13. Contact us if you believe we have.
+The app is **not aimed at children under 3**. We do not knowingly collect personal information from children under 3. Contact us if you believe we have.
 
 <h2 id="security">10. Security</h2>
 
